@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <title>Ask Lisa - Portfolio</title>
+    <link rel="icon" type="image/png" href="assets/icon.png">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mobile.css" media="only screen and (max-width: 900px)">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Particle Effects -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-content">
+            <div class="terminal-header">
+                <div class="terminal-buttons">
+                    <span class="close"></span>
+                    <span class="minimize"></span>
+                    <span class="maximize"></span>
+                </div>
+                <div class="terminal-title">asklisa@Terminal</div>
+                <div class="terminal-header-right"></div>
+            </div>
+            <div class="loading-text">
+                <span id="loading-message">Initializing terminal...</span>
+                <span class="cursor">|</span>
+            </div>
+            <div class="loading-progress-container">
+                <div class="loading-progress-bar">
+                    <div class="loading-progress" id="loading-progress"></div>
+                </div>
+                <div class="loading-percentage" id="loading-percentage">0%</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Terminal Interface -->
+    <div id="terminal" class="terminal hidden">
+        <div class="terminal-header">
+            <div class="terminal-buttons">
+                <span class="close"></span>
+                <span class="minimize"></span>
+                <span class="maximize"></span>
+            </div>
+            <div class="terminal-title">asklisa@Terminal</div>
+            <div class="terminal-header-right"></div>
+        </div>
+        
+        <div class="terminal-body">
+            <div id="output" class="output">
+                <div class="terminal-main-flex">
+                    <div class="ascii-art" id="ascii-art"></div>
+                    <div class="info-block" id="info-block"></div>
+                </div>
+            </div>
+            
+            <div class="input-line">
+                <span class="prompt">visiteur@portfolio:~$</span>
+                <input type="text" id="command-input" class="command-input" autocomplete="off" spellcheck="false">
+            </div>
+        </div>
+    </div>
+
+    <div id="pdf-viewer-overlay" class="pdf-viewer-overlay hidden">
+        <div class="pdf-viewer-header">
+            <div class="pdf-viewer-buttons">
+                <span class="pdf-close"></span>
+                <span class="pdf-minimize"></span>
+                <span class="pdf-maximize"></span>
+            </div>
+            <span class="pdf-viewer-title">Resume - Ask Lisa</span>
+        </div>
+        <iframe id="pdf-frame" src="assets/resume.pdf" frameborder="0"></iframe>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="interact.min.js"></script>
+    <script src="pdfViewer.js"></script>
+</body>
+</html> 
