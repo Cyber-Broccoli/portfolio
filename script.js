@@ -176,7 +176,7 @@ const portfolioData = {
                 <a href="https://github.com/nihalshetty-boop/nihalshetty.me" class="link" target="_blank">Visiter le repository Github du projet initial →</a>`,
 
     // About me
-    about: `IT enthusiast passionnée en quête permanente d'apprentissage. J'apprécie particulièrement la résolution de problèmes techniques. J'aime aussi jardiner, les animaux, jouer de la musique et les jeux vidéos. A ce sujet, je vous laisse, Hyrule m'attends.`,
+    about: `IT enthusiast passionnée en quête permanente d'apprentissage. J'apprécie particulièrement la résolution de problèmes techniques. J'aime aussi jardiner, les animaux, jouer de la musique et les jeux vidéos. A ce sujet, je vous laisse, Hyrule m'attend.`,
     
     projects: [
         {
