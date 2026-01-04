@@ -1,4 +1,4 @@
-# Web Portfolio
+# Online Portfolio
 [![Deploy to GitHub Pages](https://img.shields.io/badge/state-online-green)](https://gitea.home.shellterisland.com/Jin/Portfolio_Webpage)
 
 A modern, interactive terminal-style portfolio webpage that mimics a real terminal interface.
@@ -7,30 +7,14 @@ A modern, interactive terminal-style portfolio webpage that mimics a real termin
 
 ---
 
-## Features
-- Terminal-inspired UI with animated loading, ASCII art, and command prompt navigation
-- Info box with links to resume, GitHub, LinkedIn, and more
-- Responsive design for desktop and mobile
-- PDF resume viewer overlay styled as a MacOS window
-- Animated, line-by-line terminal output
-- Themed with a dark background, neon green accents, and custom wallpaper
-
----
-
-## Tech Stack
-- **HTML, CSS, JavaScript** (Vanilla)
-- **interact.js** (for draggable overlays)
-- **Custom mobile styles** (`mobile.css`)
-
 ---
 
 ## Hosting & Infrastructure
-- **Domain:** [shellterisland.com](https://whoami.shellterisland.com)
+- **Domain:** [shellterisland.com](https://portfolio.shellterisland.com)
 - **Hosting:** GitHub Pages (static site hosting)
 - **SSL:** GitHub Pages (Let’s Encrypt auto-managed certificate)
 - **CDN:** GitHub Pages global CDN
-- **DNS:** CloudFlare (A records pointing to GitHub Pages)
-
+- **DNS:** CNAME records pointing to GitHub Pages
 
 ---
 
